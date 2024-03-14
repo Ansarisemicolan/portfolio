@@ -1,0 +1,10 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #10121b;
+  color: #a4acc4;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8rem;
+  overflow: hidden !important;
+}
