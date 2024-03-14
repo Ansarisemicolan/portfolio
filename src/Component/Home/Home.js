@@ -38,7 +38,8 @@ const Home = () => {
             <div className={`${style.collg10} ${style.col12}`}>
               <div className={style.homecontent}>
                 <h1>
-                  Hi, I am <span className={style.colortheme}>Ansari</span>
+                  Hi, I am{" "}
+                  <span className={style.colortheme}>Ansari Durai</span>
                 </h1>
                 <p>
                   I am a Full Stack Developer. I can provide clean code and
