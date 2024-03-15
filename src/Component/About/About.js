@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import style from "./About.module.css";
 import aboutImg from "../../Assets/IMG-20231002-WA0018.jpg";
 
 const About = () => {
+  const [age, setAge] = useState(0);
+
+  useEffect(() => {
+    console.log("About");
+    var today = new Date();
+    var birthDate = new Date("06-04-1997");
+    var calAge = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      calAge--;
+    }
+    setAge(calAge);
+  }, []);
+
   return (
     <div className={style.main}>
       <div
@@ -53,7 +67,7 @@ const About = () => {
                     <b>Full Name</b> Ansari Durai
                   </li>
                   <li>
-                    <b>Age</b> 26 Years
+                    <b>Age</b> {age} Years
                   </li>
                   <li>
                     <b>Nationality</b> INDIAN
