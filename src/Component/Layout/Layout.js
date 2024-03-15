@@ -17,7 +17,7 @@ const Layout = () => {
 
   useEffect(() => {
     navHome.current.click();
-    console.log("use effect");
+    console.log("Layout");
   }, []);
 
   return (
