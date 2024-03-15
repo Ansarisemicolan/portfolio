@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Profile from "./../../Assets/1611841006727.jpeg";
 import style from "./Layout.module.css";
 import { Outlet, NavLink } from "react-router-dom";
@@ -12,6 +12,14 @@ const Layout = () => {
       width: isActive ? "100%" : "",
     };
   };
+
+  const navHome = useRef();
+
+  useEffect(() => {
+    navHome.current.click();
+    console.log("use effect");
+  }, []);
+
   return (
     <div className={style.wrap}>
       <div className={style.lines}>
@@ -24,7 +32,7 @@ const Layout = () => {
       <nav className={style.navbar}>
         <div className={style.leftNavBar}>
           <div className={style.profileImg}>
-            <NavLink to="/home">
+            <NavLink ref={navHome} to="/home">
               <img src={Profile}></img>
             </NavLink>
           </div>
