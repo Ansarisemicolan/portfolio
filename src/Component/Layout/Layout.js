@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import Profile from "./../../Assets/1611841006727.jpeg";
+import Profile from "./../../Assets/1710783371410.jpg";
 import style from "./Layout.module.css";
 import { Outlet, NavLink } from "react-router-dom";
 

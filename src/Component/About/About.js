@@ -114,7 +114,13 @@ const About = () => {
                     <i className={"lni lni-brush-alt size-md "}></i>
                   </span>
                   <h5>Web Design</h5>
-                  <p></p>
+                  <p>
+                    Proficient in designing with React Material UI to create
+                    visually appealing and responsive user interfaces. Skilled
+                    in crafting dynamic animations and transitions using Framer
+                    Motion, enhancing user interaction and engagement.
+                    Familiarity with other design tools and frameworks, Figma.
+                  </p>
                 </div>
               </div>
               <div
@@ -133,7 +139,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-              <div
+              {/* <div
                 className={`${style.collg4} ${style.colmd6} ${style.col12} ${style.mt30}`}
               >
                 <div className={style.service}>
@@ -143,7 +149,7 @@ const About = () => {
                   <h5>Mobile Development</h5>
                   <p></p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
