@@ -18,11 +18,11 @@ const Resume = () => {
                 <div className={style.progress}>
                   <h6 className={style.progressTitle}>HTML5</h6>
                   <div className={style.progressInner}>
-                    <div className={style.progressPrecentage}>95%</div>
+                    <div className={style.progressPrecentage}>80%</div>
                     <div className={style.progressContainer}>
                       <span
                         className={style.progressActive}
-                        style={{ width: "95%" }}
+                        style={{ width: "80%" }}
                       ></span>
                     </div>
                   </div>
@@ -32,11 +32,11 @@ const Resume = () => {
                 <div className={style.progress}>
                   <h6 className={style.progressTitle}>CSS</h6>
                   <div className={style.progressInner}>
-                    <div className={style.progressPrecentage}>95%</div>
+                    <div className={style.progressPrecentage}>70%</div>
                     <div className={style.progressContainer}>
                       <span
                         className={style.progressActive}
-                        style={{ width: "95%" }}
+                        style={{ width: "70%" }}
                       ></span>
                     </div>
                   </div>
@@ -46,11 +46,11 @@ const Resume = () => {
                 <div className={style.progress}>
                   <h6 className={style.progressTitle}>Javascript</h6>
                   <div className={style.progressInner}>
-                    <div className={style.progressPrecentage}>90%</div>
+                    <div className={style.progressPrecentage}>80%</div>
                     <div className={style.progressContainer}>
                       <span
                         className={style.progressActive}
-                        style={{ width: "90%" }}
+                        style={{ width: "80%" }}
                       ></span>
                     </div>
                   </div>
@@ -60,11 +60,11 @@ const Resume = () => {
                 <div className={style.progress}>
                   <h6 className={style.progressTitle}>Jquery</h6>
                   <div className={style.progressInner}>
-                    <div className={style.progressPrecentage}>90%</div>
+                    <div className={style.progressPrecentage}>80%</div>
                     <div className={style.progressContainer}>
                       <span
                         className={style.progressActive}
-                        style={{ width: "90%" }}
+                        style={{ width: "80%" }}
                       ></span>
                     </div>
                   </div>
