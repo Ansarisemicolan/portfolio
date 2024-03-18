@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import style from "./About.module.css";
 import aboutImg from "../../Assets/IMG-20231002-WA0018.jpg";
+import resumeFile from "../../Assets/HtmlToPdfIron.Pdf";
 
 const About = () => {
   const [age, setAge] = useState(0);
@@ -82,7 +83,12 @@ const About = () => {
                     <b>Mail me </b>ansaridurai176@gmail.com to Collab
                   </li>
                 </ul>
-                <a className={style.Button} href="/files/empty.pdf">
+                <a
+                  className={style.Button}
+                  href={resumeFile}
+                  download="Ansari_Resume"
+                  target="_blank"
+                >
                   Download CV
                 </a>
               </div>
@@ -108,10 +114,7 @@ const About = () => {
                     <i className={"lni lni-brush-alt size-md "}></i>
                   </span>
                   <h5>Web Design</h5>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Autem tenetur ratione quod.
-                  </p>
+                  <p></p>
                 </div>
               </div>
               <div
@@ -123,8 +126,10 @@ const About = () => {
                   </span>
                   <h5>Web Development</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Autem tenetur ratione quod.
+                    Having 3 years experience in web development, Strong
+                    knowledge in dot net framework, web api's and for database
+                    using SQL server. For front-end having intermediate
+                    experience in React js library.
                   </p>
                 </div>
               </div>
@@ -136,10 +141,7 @@ const About = () => {
                     <i className={"lni lni-mobile size-md "}></i>
                   </span>
                   <h5>Mobile Development</h5>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Autem tenetur ratione quod.
-                  </p>
+                  <p></p>
                 </div>
               </div>
             </div>
