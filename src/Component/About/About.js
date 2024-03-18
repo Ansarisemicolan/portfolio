@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import style from "./About.module.css";
 import aboutImg from "../../Assets/IMG-20231002-WA0018.jpg";
-import resumeFile from "../../Assets/HtmlToPdfIron.Pdf";
+import resumeFile from "../../Assets/Ansari_Resume_0.2.pdf";
 
 const About = () => {
   const [age, setAge] = useState(0);
