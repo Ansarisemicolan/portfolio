@@ -134,6 +134,79 @@ a {
   width: 100%;
 }
 
+.headerToggler {
+  align-items: center;
+  background: #191d2b;
+  display: flex;
+  display: none;
+  font-size: 1.6rem;
+  height: 50px;
+  justify-content: center;
+  left: 100%;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 50px;
+}
+
+.navbar.isVisible {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    width: 250px px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .navbar {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    width: 260px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .navbar {
+    width: 260px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .headerToggler {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .headerToggler {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .headerToggler {
+    display: flex;
+  }
+}
+
 .navList li a::before {
   background: rgba(3, 127, 255, 0.2);
   content: "";
@@ -159,4 +232,56 @@ a {
 
 .profileImg a:hover::before {
   transform: scaleX(1);
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .wrap {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .wrap {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .wrap {
+    padding-left: 260px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .lines {
+    left: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .lines {
+    left: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .lines {
+    left: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .lines {
+    left: 260px;
+    width: calc(100% - 260px);
+  }
 }
