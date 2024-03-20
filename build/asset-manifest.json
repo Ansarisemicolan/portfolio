@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab88a0cb.css",
+    "main.js": "/static/js/main.c5777a1d.js",
+    "static/media/svg": "/static/media/f2f9b8a78db58f05b9ff.30628cf3b68900f1a7be.svg",
+    "static/media/1710783371410.jpg": "/static/media/1710783371410.553d0e08b0bb2d6d3a62.jpg",
+    "static/media/Ansari_Resume_0.2.pdf": "/static/media/Ansari_Resume_0.2.d0b80152de893ffd2959.pdf",
+    "static/media/IMG-20231002-WA0018.jpg": "/static/media/IMG-20231002-WA0018.3be8a8a4ac02287b0c64.jpg",
+    "static/media/eot": "/static/media/1bd27d861dcb216e6148.1bd27d861dcb216e6148.eot",
+    "static/media/ttf": "/static/media/76255d9384a33a768b98.76255d9384a33a768b98.ttf",
+    "static/media/woff": "/static/media/409f9fb975c5f7f1bc8b.409f9fb975c5f7f1bc8b.woff",
+    "static/media/woff2": "/static/media/02810d8aed105f6dd345.02810d8aed105f6dd345.woff2",
+    "index.html": "/index.html",
+    "main.ab88a0cb.css.map": "/static/css/main.ab88a0cb.css.map",
+    "main.c5777a1d.js.map": "/static/js/main.c5777a1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab88a0cb.css",
+    "static/js/main.c5777a1d.js"
+  ]
+}
