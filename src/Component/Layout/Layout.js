@@ -51,28 +51,28 @@ const Layout = () => {
         </button>
         <div className={style.leftNavBar}>
           <div className={style.profileImg}>
-            <NavLink ref={navHome} to="/home">
+            <NavLink ref={navHome} to="/portfolio/home">
               <img src={Profile}></img>
             </NavLink>
           </div>
           <ul className={`${style.navList}`}>
             <li>
-              <NavLink to="/home" style={activeState}>
+              <NavLink to="/portfolio/home" style={activeState}>
                 <span>home</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" style={activeState}>
+              <NavLink to="/portfolio/about" style={activeState}>
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink to="/resume" style={activeState}>
+              <NavLink to="/portfolio/resume" style={activeState}>
                 Resume
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact" style={activeState}>
+              <NavLink to="/portfolio/contact" style={activeState}>
                 Contact
               </NavLink>
             </li>
