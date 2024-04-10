@@ -78,7 +78,7 @@ const Layout = () => {
             </li>
           </ul>
           <p className={style.navBarcopyright}>
-            ©️2024 <b>Ansari PortFolio</b>
+            ©️{new Date().getFullYear()} <b>Ansari PortFolio</b>
           </p>
         </div>
       </nav>
