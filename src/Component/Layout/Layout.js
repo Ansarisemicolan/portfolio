@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import Profile from "./../../Assets/1710783371410.jpg";
+import Profile from "./../../Assets/WhatsApp Image 2024-05-01 at 12.36.30 PM.jpeg";
 import style from "./Layout.module.css";
 import { Outlet, NavLink } from "react-router-dom";
 
