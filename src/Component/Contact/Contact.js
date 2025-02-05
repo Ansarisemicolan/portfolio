@@ -68,7 +68,7 @@ const Contact = () => {
                     ></textarea>
                   </div>
                   <div className={style.formField}>
-                    <button className={style.Button} type="submit">
+                    <button className={style.Button} disabled type="submit">
                       Send Mail
                     </button>
                   </div>
